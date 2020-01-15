@@ -1,0 +1,159 @@
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #f7f8f8;
+    border-bottom: 2px solid #999;
+}
+
+.borda{
+    margin-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #1fbf76;
+    width: 3px;
+    height: 40px;
+    float: left;
+}
+
+.titulo{
+    float: left;
+    font-weight: bold;
+    color: #1fbf76;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+#dropdownMenuButton  {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+    border-color: gray;
+    height: 30px;
+    font-size: 10px;
+}
+
+.mid{
+    width: 100%;
+    height: 99%;
+    
+}
+
+.item{
+    float: left;
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 22.5%;
+}
+
+.item-header{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width:100%;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(0.25turn, #68d49e 40%, #92f075);
+}
+
+.texto{
+    padding-top: 15px;
+}
+
+.item-content{
+    padding-top: 5px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.boxes{
+    text-align: justify;
+    text-indent:4em;
+    font-size: 7px;
+    margin-top: 5px;
+    width:95%;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid rgb(224, 224, 224);
+    margin-left: 2.5%;
+    border-radius: 5px;
+}
+
+.texto-box{
+    margin: 1.5%;
+}
+
+.button-box{
+    text-align: right;
+    text-indent:4em;
+    font-size: 7px;
+    width:  95%;
+    height: 40px;
+    background-color: #f0f0f0;
+    margin-left: 2.5%;
+    border-radius: 15px;
+}
+
+.button-back{
+    height:50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    background-color: white;
+}
+
+.footer{
+    height: 100px;
+    width: 97%;
+    margin: 1.5%;
+    background-color: white;
+}
+
+.footer-texto{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#text-area{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    height: 30px;
+    width: 500px;
+    float: left;
+}
+
+#button-area{
+    margin-top: -6px;
+    margin-left: 5px;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    background-image: linear-gradient(0.25turn, #68d49e 40%, #92f075);
+    float: left;
+}
+
+.texto-valor{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.texto-tipo{
+    color: #585858;
+    margin-left: 180px;
+    margin-top: -5px;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+}
+

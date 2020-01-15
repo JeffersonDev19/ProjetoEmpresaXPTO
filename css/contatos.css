@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(0.5turn, #e0e0e0 90%, #0b582c 10%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #1fbf76;  
+}
+
+.borda{
+    margin-top: 5px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f8f8;    
+    width: 3px;
+    height: 40px;
+    float: left;
+}
+
+.titulo{
+    float: left;
+    font-weight: bold;
+    color: #f7f8f8;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+.mid{
+    padding-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;   
+}
+
+.table tbody tr td{
+    vertical-align: middle;
+    height: 70px;
+}
+         
+.table tr:nth-child(even) {
+    background: #FFF
+}
+         
+.table tr:nth-child(odd) {
+    background: #EEE
+}
+
+.texto{
+    font-weight: bold;
+    text-align: right;
+    font-size: 12px;
+    float: right;
+}
+
+.image{
+    float: right;
+    width: 20px;
+    height: 20px;    
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    opacity: .3;
+}
+
+.td-image{
+    width: 20px;
+}
+
+.footer{
+    margin-top: 90px;
+    height: 200%;
+    width: 100%;
+    background-color: #1fbf76;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer-item{
+    float:left;
+    width: 20%;
+    text-align: center;
+}
+
+.footer-img{
+    padding-top: 10%;
+}
+
+.text-img{
+    margin-left: -20px;
+    color: #EEE;
+    font-size: 7px;
+}
+
+.lista{
+    padding-top: 4%;
+}
+
+.titulo-lista{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.texto-lista{
+    font-size: 10px;
+    color: white;
+    text-align: left;
+}
+
+.siga-nos{
+    padding-top: 1%;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.desenvolvido{
+    padding-top: .5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    height: 70%;
+    width: 100%;
+    background-color: #0b582c;
+}
